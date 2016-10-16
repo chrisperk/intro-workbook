@@ -52,7 +52,7 @@ body {
 .aboutimg {
     height: 220px;
     background-image: url("../img/rermFam.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -212,7 +212,6 @@ body {
         }
 
         .aboutimg {
-            background-size: cover;
             width: 80%;
             margin: 0 auto;
         }
@@ -262,9 +261,5 @@ body {
 
         .herobox h1 {
             margin-bottom: 45%;
-        }
-
-        .aboutimg {
-            background-size: cover;
         }
     }
