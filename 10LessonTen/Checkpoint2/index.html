@@ -2,87 +2,218 @@
 <html>
 
 <head>
-  <title>Right Ear, Right Meow</title>
-  <link rel="stylesheet" href="css/css-reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma|Dancing+Script|Open+Sans" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- TITLE -->
+    <title>Christopher Perkins</title>
+
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="css/css-reset.css">
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma|Dancing+Script|Open+Sans" rel="stylesheet">
+
+    <!-- BOOTSTRAP FRAMEWORK -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <script src="https://use.fontawesome.com/a11441d40e.js"></script>
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header class="clearfix">
+    <!-- BOOTSTRAP NAV -->
+    <nav id="mynav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="mybrand navbar-brand" href="#">Right Ear, Right Meow</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="mylinks nav navbar-nav navbar-right">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#fosters">Fosters</a></li>
+                    <li><a href="#recentlyadopted">Recently Adopted</a></li>
+                    <li><a href="#donate">Donate</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="row">
+            <div class="herobox">
+                <h1>Right Ear,<br>Right Meow</h1>
+                <p>Even the coolest cats call some place home.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutimg col-sm-3"></div>
+                <div class="aboutbox col-sm-9">
+                    <h3>About Us</h3>
+                    <p>We are a foster home for kittens and mother cats located in Austin, TX. We believe a healthy kitty is a happy kitty and take great care to keep our fosters up to date on their vaccinations and fed the most nutritious (and tasty!) of
+                        kibble and wet cuisine. We enjoy observing and encouraging the process of a kitten's development so you can be sure the kitty you're adopting will love to be loved and love back.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fosters">
+        <div class="container">
+            <h3>Featured Fosters</h3>
+            <div class="row">
+                <div class="fosterbox col-md-3 col-sm-6">
+                    <img src="img/penny.jpg" class="img-responsive" alt="Penny Lane" />
+                    <h4>Penny Lane</h4>
+                    <p>Penny Lane is a snuggler. She loves to grab a shoulder and say hi with a sweet purr in your ear.</p>
+                </div>
+                <div class="fosterbox col-md-3 col-sm-6">
+                    <img src="img/pickles.jpg" class="img-responsive" alt="Pickles" />
+                    <h4>Pickles</h4>
+                    <p>Pickles is a curious youngster who is known to drift from the pack to sniff around a bit and curl up by herself.</p>
+                </div>
+                <div class="fosterbox col-md-3 col-sm-6">
+                    <img src="img/precious.jpg" class="img-responsive" alt="Precious the One Ring" />
+                    <h4>Precious the One Ring</h4>
+                    <p>Precious is easily spotted by the white ring encircling his neck. He also has a strange fascination with cheese.</p>
+                </div>
+                <div class="fosterbox col-md-3 col-sm-6">
+                    <img src="img/paxton.JPG" class="img-responsive" alt="Paxton" />
+                    <h4>Paxton</h4>
+                    <p>Clearly of a different litter, his foster brethren respect Paxton no less and enjoy following his slightly wiser lead.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="recentlyadopted">
+        <div class="container">
+            <h3>Recently Adopted</h3>
+            <div class="row">
+                <div class="foundbox col-sm-4 col-sm-offset-1">
+                    <img src="img/kashi.jpg" alt="Kashi" />
+                    <p>Kashi</p>
+                    <date>August 27, 2016</date>
+                </div>
+                <div class="foundbox col-sm-4 col-sm-offset-2">
+                    <img src="img/izandivy.jpg" alt="Isabelle and Ivy" />
+                    <p>Isabelle and Ivy</p>
+                    <date>July 30, 2016</date>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DONATE SECTION -->
+    <section id="donate">
+        <div class="container">
+            <div class="row">
+                <div class="donatebox">
+                    <p>Right Ear, Right Meow is a registered 501(c)(3) non-profit organization, and we exist 100% FTK (For The Kitties). Rest assured that every dollar of your donation will go toward finding a rescue kitty a home, and none will go to Fosterdad's
+                        video games. If you have any questions please do not hesitate to contact us at <a href="mailto:rightear.rightmeow@gmail.com">rightear.rightmeow@gmail.com</a>.</p>
+                    <a class="donatelink" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5W3NFDZVRJJQE">Donate here!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <footer id="contact">
+        <div class="row">
+            <div class="socialicons">
+                <a class="firstlink" href="mailto:rightear.rightmeow@gmail.com"><img src="socialicons/mail.png" alt="Email" /></a>
+                <a href="https://www.instagram.com/rightear.rightmeow/"><img src="socialicons/ig.png" alt="Instagram" /></a>
+                <a href="https://www.facebook.com/RightEarRightMeow/"><img src="socialicons/fb.png" alt="Facebook" /></a>
+                <a href="https://twitter.com/earnmeow"><img src="socialicons/twit.png" alt="Twitter" /></a>
+            </div>
+            <p>Copyright © 2016 Right Ear, Right Meow.</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT CALLS -->
+
+    <!-- JQUERY CALL -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- BOOSTRAP CALL -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+<!-- <header class="clearfix">
     <h2>Right Ear, Right Meow</h2>
     <nav class="navlinks">
-      <a href="#hero">Home</a>
-      <a href="#about">About</a>
-      <a href="#fosters">Fosters</a>
-      <a href="#foundhome">Recently Adopted</a>
-      <a href="#donate">Donate</a>
-      <a href="#contact">Contact</a>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#fosters">Fosters</a>
+        <a href="#foundhome">Recently Adopted</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">Contact</a>
     </nav>
-  </header>
-  <section id="hero">
+</header> -->
+<!-- <section id="hero">
     <div class="herobox">
-      <h1>Right Ear,<br>Right Meow</h1>
-      <p>Even the coolest cats call some place home.</p>
+        <h1>Right Ear,<br>Right Meow</h1>
+        <p>Even the coolest cats call some place home.</p>
     </div>
-  </section>
-  <section id="about" class="clearfix">
+</section> -->
+<!-- <section id="about" class="clearfix">
     <img src="img/rermFam.jpg" alt="our happy foster fam" />
     <div class="aboutbox">
-      <h3>About Us</h3>
-      <p>We are a foster home for kittens and mother cats located in Austin, TX. We believe a healthy kitty is a happy kitty and take great care to keep our fosters up to date on their vaccinations and fed the most nutritious (and tasty!) of kibble and wet cuisine. We enjoy observing and encouraging the process of a kitten's development so you can be sure the kitty you're adopting will love to be loved and love back.</p>
+        <h3>About Us</h3>
+        <p>We are a foster home for kittens and mother cats located in Austin, TX. We believe a healthy kitty is a happy kitty and take great care to keep our fosters up to date on their vaccinations and fed the most nutritious (and tasty!) of kibble and wet cuisine. We enjoy observing and encouraging the process of a kitten's development so you can be sure the kitty you're adopting will love to be loved and love back.</p>
     </div>
-  </section>
-  <section id="fosters" class="clearfix">
+</section> -->
+<!-- <section id="fosters" class="clearfix">
     <h3>Featured Fosters</h3>
     <div class="fosterbox">
-      <img src="img/penny.jpg" alt="Penny Lane" />
-      <h4>Penny Lane</h4>
-      <p>Penny Lane is a snuggler. She loves to grab a shoulder and say hi with a sweet purr in your ear.</p>
+        <img src="img/penny.jpg" alt="Penny Lane" />
+        <h4>Penny Lane</h4>
+        <p>Penny Lane is a snuggler. She loves to grab a shoulder and say hi with a sweet purr in your ear.</p>
     </div>
     <div class="fosterbox">
-      <img src="img/pickles.jpg" alt="Pickles" />
-      <h4>Pickles</h4>
-      <p>Pickles is a curious youngster who is known to drift from the pack to sniff around a bit and curl up by herself.</p>
+        <img src="img/pickles.jpg" alt="Pickles" />
+        <h4>Pickles</h4>
+        <p>Pickles is a curious youngster who is known to drift from the pack to sniff around a bit and curl up by herself.</p>
     </div>
     <div class="fosterbox">
-      <img src="img/precious.jpg" alt="Precious the One Ring" />
-      <h4>Precious the One Ring</h4>
-      <p>Precious is easily spotted by the white ring encircling his neck. He also has a strange fascination with cheese.</p>
+        <img src="img/precious.jpg" alt="Precious the One Ring" />
+        <h4>Precious the One Ring</h4>
+        <p>Precious is easily spotted by the white ring encircling his neck. He also has a strange fascination with cheese.</p>
     </div>
     <div class="fosterbox">
-      <img src="img/paxton.JPG" alt="Paxton" />
-      <h4>Paxton</h4>
-      <p>Clearly of a different litter, his foster brethren respect Paxton no less and enjoy following his slightly wiser lead.</p>
+        <img src="img/paxton.JPG" alt="Paxton" />
+        <h4>Paxton</h4>
+        <p>Clearly of a different litter, his foster brethren respect Paxton no less and enjoy following his slightly wiser lead.</p>
     </div>
-  </section>
-  <section id="foundhome" class="clearfix">
+</section> -->
+<!-- <section id="recentlyadopted" class="clearfix">
     <h3>Recently Adopted</h3>
     <div class="foundbox">
-      <img src="img/kashi.jpg" alt="Kashi" />
-      <p>Kashi</p>
-      <date>August 27, 2016</date>
+        <img src="img/kashi.jpg" alt="Kashi" />
+        <p>Kashi</p>
+        <date>August 27, 2016</date>
     </div>
     <div class="foundbox">
-      <img src="img/izandivy.jpg" alt="Isabelle and Ivy" />
-      <p>Isabelle and Ivy</p>
-      <date>July 30, 2016</date>
+        <img src="img/izandivy.jpg" alt="Isabelle and Ivy" />
+        <p>Isabelle and Ivy</p>
+        <date>July 30, 2016</date>
     </div>
-  </section>
-  <section id="donate">
-    <div class="donatebox">
-      <p>Right Ear, Right Meow is a registered 501(c)(3) non-profit organization, and we exist 100% FTK (For The Kitties). Rest assured that every dollar of your donation will go toward finding a rescue kitty a home, and none will go to Fosterdad's video games. If you have any questions please do not hesitate to contact us at <a href="mailto:rightear.rightmeow@gmail.com">rightear.rightmeow@gmail.com</a>.</p>
-      <a class="donatelink" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5W3NFDZVRJJQE">Donate here!</a>
-    </div>
-  </section>
-  <footer id="contact">
-    <div class="socialicons">
-      <a class="firstlink" href="mailto:rightear.rightmeow@gmail.com"><img src="socialicons/mail.png" alt="Email" /></a>
-      <a href="https://www.instagram.com/rightear.rightmeow/"><img src="socialicons/ig.png" alt="Instagram" /></a>
-      <a href="https://www.facebook.com/RightEarRightMeow/"><img src="socialicons/fb.png" alt="Facebook" /></a>
-      <a href="https://twitter.com/earnmeow"><img src="socialicons/twit.png" alt="Twitter" /></a>
-    </div>
-    <p>Copyright © 2016 Right Ear, Right Meow.</p>
-  </footer>
-</body>
-</html>
+</section> -->
